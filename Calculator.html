@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel ="stylesheet" href="Calculator.css">
+        <script src="Calculator.js"></script>  
+    </head>
+    <body>  
+        <div id="Calculator">
+            <p  style="float: left;">CALCULATOR</p>
+            <p  style="float: right;">BY: DARAKHSHAN</p>
+            <input type="text" name="box" id="textbox">
+            <hr>
+            <div>
+                <input type="radio" id="degree" name="degree" value="degree">
+                <label for="degree">degree</label>
+                <input type="radio" id="radian" name="radian" value="radian">
+                <label for="radian">radian</label>
+                <button type="submit"id="allclear"  onclick=fun22() class="Clear" >Clear</button>
+                <button type="submit"id="cancel"  onclick=fun23()  class="Clear">C</button><br>
+                <button type="submit" ; onclick=fun1() id="one" value="1" class="operations numbers">1</button>
+                <button type="submit" ; onclick=fun2() id="two"value= "2" class="operations numbers">2</button>
+                <button type="submit" id="three" onclick=fun3() value="3" class="operations numbers">3</button>
+                <button type="submit"id="plus"onclick=fun12()  value="+" class="operations";>+</button>
+                <input  type="submit" onclick=fun16() value="&radic;"  class="operations" />
+                <button type="submit" onclick=fun17() class="operations"><span>&#8731;</span></button>
+                <button type="submit" onclick=fun18() class="operations"><span>&#37;</span></button>
+                <br> 
+                <button type="submit" id="four"onclick=fun4() value="4" class="operations numbers">4</button>
+                <button type="submit" id="five"onclick=fun5() value="5" class="operations numbers">5</button>
+                <button type="submit" id="six" onclick=fun6() value="6" class="operations numbers">6</button>
+                <button type="submit" id="minus" onclick = fun13() value="-" class="operations">-</button>
+                <button type="submit" onclick=fun24() class="operations">sin()</button>
+                <button type="submit" onclick=fun25() class="operations">cos()</button>
+                <button type="submit" onclick=fun26() class="operations">tan()</button>
+                <br>
+                <button type="submit" id="seven" onclick=fun7() value="7" class="operations numbers" >7</button>
+                <button type="submit" id="eigth" onclick=fun8() value="8" class="operations numbers">8</button>
+                <button type="submit" id="nine" onclick=fun9() value="9" class="operations numbers">9</button>
+                <button type="submit" id="multiply" value="x" onclick=fun14() class="operations">x</button>
+                <button type="submit" onclick=fun27() class="operations">sin<sup>-1</sup>()</button>
+                <button type="submit" onclick=fun28() class="operations">cos<sup>-1</sup>()</button>
+                <button type="submit" onclick=fun29() class="operations">tan<sup>-1</sup>()</button>
+                <br>
+                <button type="submit" id="point" onclick=fun11() value="." class="operations numbers"><span>&#8226;</span></button>
+                <button type="submit" id="zero" value="0" onclick=fun0() class="operations numbers">0</button>
+                <button type="submit" id="Equal" onclick=fun10() class="operations";>=</button>
+                <button type="submit" id="divide" value="/" onclick=fun15() class="operations" style="font-size: larger;"><span>&#247;</span></button>
+                <button type="submit" onclick=fun20() class="operations">x<sup>3</sup></button>
+                <button type="submit" onclick=fun19() class="operations">x<sup>2</sup></button>
+                <button type="submit" onclick=fun21() class="operations"><span>&#960;</span></button>
+            </div>
+        </div>
+    </body>
+</html>
